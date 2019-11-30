@@ -14,14 +14,76 @@
         android:background="@drawable/top_radius"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/kind_speak"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/speak"
+            />
         <LinearLayout
             android:layout_centerInParent="true"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <Button
+                android:id="@+id/kind_before"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="&lt;"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+                    android:text="01 - 지하철 내 카드 충전/발급"
+                    android:id="@+id/kind_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/kind_subway"
+                    android:id="@+id/kind_img"
+                    android:layout_width="280dp"
+                    android:layout_height="350dp" />
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text=": 교통카드를 무인으로 충전할 수 있으며, 일회용 교통카드를 발급할 수 있는 무인 단말기이다."
+                    android:id="@+id/kind_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/kind_after"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="&gt;"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                />
+
 
         </LinearLayout>
+
 
         <ImageView
             android:layout_alignParentBottom="true"
