@@ -6,35 +6,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class learn_menu extends AppCompatActivity {
 
-    Button learn,follow;
+    Button theory,practice;
     Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_learn_menu);
 
+        theory = findViewById(R.id.theory);
+        practice = findViewById(R.id.practice);
 
-        learn = findViewById(R.id.learn);
-        follow = findViewById(R.id.follow);
-
-        learn.setOnClickListener(new View.OnClickListener() {
+        theory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getApplication(),learn_menu.class);
+                intent = new Intent(getApplication(), com.example.ok_ist.theory.class);
                 startActivity(intent);
             }
         });
 
-        follow.setOnClickListener(new View.OnClickListener() {
+        practice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                intent = new Intent(getApplication(),practice.class);
+                startActivity(intent);
             }
         });
-
     }
 }

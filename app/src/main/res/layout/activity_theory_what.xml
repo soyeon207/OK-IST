@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".theory_what">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/top_radius"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/title"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:text="키오스크 (KIOSK)"
+                   android:textSize="30dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <ImageView
+                   android:id="@+id/speak"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:src="@drawable/speak"
+
+                   />
+
+           </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/content"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:text=": 정부기관이나 식당, 지하철, 쇼핑몰 등 공공장소에 설치된 무인 정보단말기"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:text="예 ) 티켓 발매용, 시설물 이용 안내 등"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/next_btn"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:textSize="20dp"
+                android:text="다음"
+                android:background="@drawable/btn_radius"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/logo_bottom" />
+
+    </RelativeLayout>
+
+</LinearLayout>

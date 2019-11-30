@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".follow" />
-        <activity android:name=".learn" />
+        <activity android:name=".theory_configuration"></activity>
+        <activity android:name=".theory_kind" />
+        <activity android:name=".theory_what" />
+        <activity android:name=".practice" />
+        <activity android:name=".learn_menu" />
+        <activity android:name=".theory" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">

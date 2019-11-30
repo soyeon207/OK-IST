@@ -4,10 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class follow extends AppCompatActivity implements View.OnClickListener {
+public class theory extends AppCompatActivity implements View.OnClickListener {
 
     TextView txt1,txt2,txt3;
     Intent intent;
@@ -15,7 +14,7 @@ public class follow extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_follow);
+        setContentView(R.layout.activity_theory);
 
        txt1 = findViewById(R.id.follow_txt_1);
        txt2 = findViewById(R.id.follow_txt_2);
@@ -31,11 +30,16 @@ public class follow extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.follow_txt_1:
-
+                intent = new Intent(getApplicationContext(),theory_what.class);
+                startActivity(intent);
                 break;
             case R.id.follow_txt_2:
+                intent = new Intent(getApplicationContext(),theory_kind.class);
+                startActivity(intent);
                 break;
             case R.id.follow_txt_3:
+                intent = new Intent(getApplicationContext(),theory_configuration.class);
+                startActivity(intent);
                 break;
         }
     }
