@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".order">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/top_radius"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_centerInParent="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textColor="@color/colorPrimary"
+               android:textSize="21dp"
+               android:textStyle="bold"
+               android:text="맥도날드 - 불고기 버거 세트 주문 방법"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+           <ImageView
+               android:src="@drawable/order_store"
+               android:layout_width="280dp"
+               android:layout_height="350dp"
+               />
+
+           <TextView
+               android:textColor="@color/colorPrimary"
+               android:textStyle="bold"
+               android:textSize="25dp"
+               android:text=": 왼쪽 버튼을 눌러주세요"
+               android:id="@+id/con_content"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/logo_bottom" />
+    </RelativeLayout>
+</LinearLayout>

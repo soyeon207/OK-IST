@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".theory_configuration"></activity>
+        <activity android:name=".order_menu"></activity>
+        <activity android:name=".order_brand" />
+        <activity android:name=".order" />
+        <activity android:name=".theory_configuration" />
         <activity android:name=".theory_kind" />
         <activity android:name=".theory_what" />
         <activity android:name=".practice" />

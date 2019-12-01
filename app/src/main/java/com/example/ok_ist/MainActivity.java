@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         follow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                intent = new Intent(getApplication(),order_brand.class);
+                startActivity(intent);
             }
         });
 

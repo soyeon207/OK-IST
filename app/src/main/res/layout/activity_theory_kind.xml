@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <ImageView
-                    android:src="@drawable/kind_subway"
+                    android:src="@drawable/kind_sub"
                     android:id="@+id/kind_img"
                     android:layout_width="280dp"
                     android:layout_height="350dp" />
