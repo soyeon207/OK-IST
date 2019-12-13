@@ -48,7 +48,7 @@
                 >
                 <TextView
                     android:textColor="@color/colorPrimary"
-                    android:textSize="21sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     android:text="01 - 지하철 내 카드 충전/발급"
                     android:id="@+id/kind_title"
@@ -62,7 +62,7 @@
                 <TextView
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
-                    android:textSize="25sp"
+                    android:textSize="28sp"
                     android:text=": 교통카드를 무인으로 충전할 수 있으며, 일회용 교통카드를 발급할 수 있는 무인 단말기이다."
                     android:id="@+id/kind_content"
                     android:layout_width="wrap_content"

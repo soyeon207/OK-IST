@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".order_brand">
+    android:layout_height="match_parent"
+    tools:context=".practice_info">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,25 +15,41 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/brand_mac"
+            android:gravity="center"
+            android:orientation="vertical"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:orientation="vertical"
             android:layout_height="wrap_content">
-            <ImageView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/practice_mac"
-                />
+
+
             <TextView
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="주문 조건\n"
                 android:textColor="@color/colorPrimary"
-                android:textSize="30sp"
                 android:textStyle="bold"
-                android:text="맥도날드"
+                android:textSize="40sp"
+                />
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 불고기 버거 세트를 주문 \n- 음료수를 사이다로 변경 \n- 매장에서 식사\n\n"
+                />
+            <Button
+                android:id="@+id/next_order"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="넘어가기"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:textSize="30sp"
                 />
         </LinearLayout>
 
@@ -44,4 +61,5 @@
             android:src="@drawable/logo_bottom" />
 
     </RelativeLayout>
+
 </LinearLayout>

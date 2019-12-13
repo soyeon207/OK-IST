@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
     android:background="@color/colorPrimary"
     android:layout_height="match_parent"
     tools:context=".practice">
@@ -21,20 +23,41 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/practice_title"
                 android:textColor="@color/colorPrimary"
-                android:textSize="25sp"
+                android:textSize="35sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="화면을 선택해주세요"
                 />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/img"
-                android:src="@drawable/con_01"
-                android:layout_width="280dp"
-                android:layout_height="350dp"
-                />
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:id="@+id/img"
+                    android:layout_width="420dp"
+                    android:layout_height="525dp"
+                    android:src="@drawable/con1" />
+
+                <Button
+                    android:visibility="invisible"
+                    android:id="@+id/click2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="130dp"
+                    android:layout_height="150dp"
+
+                    />
+            </RelativeLayout>
+
 
             <LinearLayout
                 android:layout_marginTop="20dp"
@@ -44,22 +67,22 @@
                 >
                 <Button
                     android:id="@+id/hint"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:textStyle="bold"
                     android:textColor="@color/white"
                     android:background="@color/colorPrimary"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="힌트"
                     />
 
                 <Button
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:textStyle="bold"
                     android:id="@+id/read"
                     android:textColor="@color/white"
                     android:background="@color/colorPrimary"
-                    android:layout_width="wrap_content"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:text="읽어주기"
                     />

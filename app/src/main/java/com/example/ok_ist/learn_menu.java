@@ -30,7 +30,7 @@ public class learn_menu extends AppCompatActivity {
         practice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getApplication(),practice.class);
+                intent = new Intent(getApplication(),practice_info.class);
                 startActivity(intent);
             }
         });

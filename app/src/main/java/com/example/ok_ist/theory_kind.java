@@ -18,7 +18,7 @@ public class theory_kind extends AppCompatActivity implements View.OnClickListen
     Button kind_before,kind_after;
     int count=0;
     String title[] = {"01 - 지하철 내 카드 충전/발급","02 - 매장 내 메뉴 주문"};
-    String content[]  ={": 교통카드를 무인으로 충전할 수 있으며, 일회용 교통카드를 발급할 수 잇는 무인 단말기이다.",": 메뉴를 보고 원하는 음식을 선택하여 주문할 수 있는 무인 단말기이다."};
+    String content[]  ={": 교통카드를 무인으로 충전할 수 있으며, 일회용 교통카드를 발급할 수 있는 무인 단말기이다.",": 메뉴를 보고 원하는 음식을 선택하여 주문할 수 있는 무인 단말기이다."};
     int img[] = {R.drawable.kind_sub,R.drawable.kind_mac};
     @Override
     protected void onCreate(Bundle savedInstanceState) {

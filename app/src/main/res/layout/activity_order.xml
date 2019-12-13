@@ -14,36 +14,71 @@
         android:background="@drawable/top_radius"
         android:orientation="vertical">
 
-       <LinearLayout
-           android:orientation="vertical"
-           android:gravity="center"
-           android:layout_centerInParent="true"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/order_back"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="&lt;"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                />
 
-           <TextView
-               android:textColor="@color/colorPrimary"
-               android:textSize="21sp"
-               android:textStyle="bold"
-               android:text="맥도날드 - 불고기 버거 세트 주문 방법"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content">
 
-           <ImageView
-               android:src="@drawable/order_store"
-               android:layout_width="280dp"
-               android:layout_height="350dp"
-               />
+                <TextView
+                    android:id="@+id/order_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:text="맥도날드 - 불고기 버거 세트 주문 방법"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
-           <TextView
-               android:textColor="@color/colorPrimary"
-               android:textStyle="bold"
-               android:textSize="25sp"
-               android:text=": 왼쪽 버튼을 눌러주세요"
-               android:id="@+id/con_content"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content" />
-       </LinearLayout>
+                <ImageView
+                    android:id="@+id/order_img"
+                    android:src="@drawable/order_store"
+                    android:layout_width="280dp"
+                    android:layout_height="350dp"
+                    />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:text=": 왼쪽 버튼을 눌러주세요"
+                    android:id="@+id/order_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/order_next"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="&gt;"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                />
+
+        </LinearLayout>
+
 
         <ImageView
             android:layout_alignParentBottom="true"
