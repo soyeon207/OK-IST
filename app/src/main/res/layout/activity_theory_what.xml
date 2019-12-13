@@ -30,7 +30,7 @@
                    android:textStyle="bold"
                    android:textColor="@color/colorPrimaryDark"
                    android:text="키오스크 (KIOSK)"
-                   android:textSize="30dp"
+                   android:textSize="30sp"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content" />
                <ImageView
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:text=": 정부기관이나 식당, 지하철, 쇼핑몰 등 공공장소에 설치된 무인 정보단말기"
                 />
             <TextView
@@ -60,7 +60,7 @@
                 android:text="예 ) 티켓 발매용, 시설물 이용 안내 등"
                 android:textColor="@color/colorPrimary"
                 android:layout_marginTop="20dp"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="right"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:text="다음"
                 android:background="@drawable/btn_radius"
                 android:textColor="@color/white"

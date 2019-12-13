@@ -23,7 +23,7 @@
 
            <TextView
                android:textColor="@color/colorPrimary"
-               android:textSize="21dp"
+               android:textSize="21sp"
                android:textStyle="bold"
                android:text="맥도날드 - 불고기 버거 세트 주문 방법"
                android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
            <TextView
                android:textColor="@color/colorPrimary"
                android:textStyle="bold"
-               android:textSize="25dp"
+               android:textSize="25sp"
                android:text=": 왼쪽 버튼을 눌러주세요"
                android:id="@+id/con_content"
                android:layout_width="wrap_content"

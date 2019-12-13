@@ -26,7 +26,7 @@
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp"
             android:textStyle="bold"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
         <Button
@@ -40,7 +40,7 @@
             android:textColor="@color/white"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
     </LinearLayout>

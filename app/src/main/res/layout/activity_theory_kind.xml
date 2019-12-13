@@ -34,7 +34,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:text="&lt;"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:textColor="@color/white"
                 android:background="@drawable/btn_radius"
                 />
@@ -48,7 +48,7 @@
                 >
                 <TextView
                     android:textColor="@color/colorPrimary"
-                    android:textSize="21dp"
+                    android:textSize="21sp"
                     android:textStyle="bold"
                     android:text="01 - 지하철 내 카드 충전/발급"
                     android:id="@+id/kind_title"
@@ -62,7 +62,7 @@
                 <TextView
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
                     android:text=": 교통카드를 무인으로 충전할 수 있으며, 일회용 교통카드를 발급할 수 있는 무인 단말기이다."
                     android:id="@+id/kind_content"
                     android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:text="&gt;"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:textColor="@color/white"
                 android:background="@drawable/btn_radius"
                 />
