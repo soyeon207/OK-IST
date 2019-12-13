@@ -24,7 +24,7 @@ public class order_menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplication(),order.class);
-                intent.putExtra("bb","store");
+                intent.putExtra("type","store");
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class order_menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getApplication(),order.class);
-                intent.putExtra("bb","takeout");
+                intent.putExtra("type","takeout");
                 startActivity(intent);
             }
         });

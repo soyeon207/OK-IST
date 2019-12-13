@@ -47,14 +47,14 @@
                     android:layout_height="525dp"
                     android:src="@drawable/con1" />
 
-                <Button
+                <TextView
                     android:visibility="invisible"
                     android:id="@+id/click2"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="100dp"
                     android:layout_width="130dp"
                     android:layout_height="150dp"
-
+                    android:text=" "
                     />
             </RelativeLayout>
 

@@ -24,6 +24,7 @@
             />
 
         <LinearLayout
+            android:id="@+id/activity_configuration"
             android:layout_centerInParent="true"
             android:orientation="horizontal"
             android:layout_width="wrap_content"
@@ -59,14 +60,7 @@
                     android:id="@+id/con_img"
                     android:layout_width="280dp"
                     android:layout_height="350dp" />
-                <TextView
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    android:textSize="35sp"
-                    android:text=": ① 무인 주문기의 첫 화면입니다"
-                    android:id="@+id/con_content"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+
 
             </LinearLayout>
 
@@ -82,7 +76,23 @@
                 />
         </LinearLayout>
 
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/activity_configuration"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text=": ① 무인 주문기의 첫 화면입니다"
+            android:id="@+id/con_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <ImageView
+            android:textAlignment="center"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="35dp"
